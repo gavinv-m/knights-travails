@@ -1,0 +1,24 @@
+{
+  "name": "knights-travails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./lib/browser-module.js"
+      }
+    },
+    "module-a": {
+      "import": "./lib/module-a.mjs",
+      "require": "./lib/module-a.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
